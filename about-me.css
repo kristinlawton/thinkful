@@ -1,0 +1,130 @@
+body {
+      /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    line-height:1.7777777;
+    /*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+  color: white;
+  background: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&amp;fit=crop&amp;fm=jpg&amp;h=2667&amp;ixlib=rb-0.3.5&amp;q=50&amp;w=4000');
+background-repeat: no-repeat;
+background-position:top center;
+background-size: cover;
+background-attachment:fixed;
+}
+
+p {
+  font-size: 1em;
+}
+
+a
+ {
+	/* Typography Declrations */
+	text-decoration: none;
+	color: #66ccff;
+}
+
+a:hover {
+	/* Tyopography Declarations */
+	color: #66ccff;
+}
+
+a:visited {
+	/* Typography Declarations */
+	color: #0088cc;
+}
+.masthead {
+	/* Layout Declarations */
+	/* Appearance Declarations */
+}
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+  font-size: 2em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-size: 4em;
+	font-weight: bold;
+}
+
+.overlay {
+  background-color: #262626;
+  opacity:0.7;
+  max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 1em
+}
+
+
+.introduction, 
+.questions, p {
+	/* Layout Declarations */
+  padding: 0.1em;
+  max-width: 35em;
+  margin-left: auto;
+	margin-right: auto;  
+}
+
+.leftquestion {
+	/* Layout Declarations */
+	margin: 1em 0;
+	/* Typography Declarations */
+		font-size: 1em;
+	font-weight: bold;
+  text-align: left;
+    color: #ffff00;
+}
+
+.rightquestion {
+	/* Layout Declarations */
+	margin: 1em 0;
+	/* Typography Declarations */
+		font-size: 1em;
+	font-weight: bold;
+    text-align: right;
+  color: #ffff00;
+}
+
+.answer {
+	/* Layout Declarations */
+	margin: 1em 0;
+	/* Typography Declarations */
+  color: #66ccff;
+}
+.content-footer {
+	/* Layout Declarations */
+  max-width: 36em;
+  margin-left: auto;
+	margin-right: auto;  
+	margin-top: 1em;
+	padding: 1em 0;
+	/* Appearance Rules */
+}
+
+.social {
+	/* Layout Declarations */
+	padding: 0;
+	/* Appearance Declarations */
+	list-style: none;
+  margin: 2em 0 1em 0;
+      text-align: center;
+  margin-bottom:-4em;
+}
+
+.social > li {
+	/* Layout Declarations */
+    font-size: -1em;
+	display: inline-block;
+	margin-right: 0em;
+}
